@@ -31,7 +31,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        repository:  patrickhofmann0/dev-digital-raum
+        with:
+          repository:  patrickhofmann0/dev-digital-raum
 
       - name: Setup Node
         uses: actions/setup-node@v4
