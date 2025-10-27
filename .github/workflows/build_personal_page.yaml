@@ -49,7 +49,7 @@ jobs:
           path: ./dist
           
       - name: deploy to github-pages
-        run: npm deploy
+        run: npm run deploy
         
 
   # Deployment job
